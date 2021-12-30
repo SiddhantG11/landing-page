@@ -76,14 +76,24 @@ button {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    padding: 48px;
 }
 
-.boxes {
+.all-boxes {
     display: flex;
-    justify-content: space-between;
+    gap: 12px;
+   
+}
+
+.box-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .box { 
+    /* display: flex; */
+    /* flex-direction: column; */
     border: 3px solid #3882F6;
     width: 150px;
     margin: 10px;
@@ -94,11 +104,6 @@ button {
 .photo {
     padding: 0 48px;
 }
-
-
-
-
-
 
 a {
     text-decoration: none;
