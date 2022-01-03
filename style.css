@@ -151,8 +151,34 @@ a {
     background-color: #3882f6;
     color: #fff;
     padding:  48px;
-    border-radius: 3%;
+    border-radius: 10px;
+    display: flex;
+    margin: 96px;
+    flex: 1;
+    justify-content: space-between;
+}
+.text-button {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
 }
 .cta-text {
     display: flex;
+    flex-direction: column;
+}
+
+.button1 {
+    border: 2px solid #fff;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 0 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
