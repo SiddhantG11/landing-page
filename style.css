@@ -3,20 +3,25 @@
 
 }
 body {
-    display: flex;
+
     flex-direction: column;
     margin: 0;
 }
 
-.header {
+body, .header , .header-container , .header-text, .header-links,  .item1 , .item2 , .item3,
+ .item4, .text-sub, .all-boxes, .box-text, .quote , .citation , .blue-background , .text-button , .cta-text , .footer
+ {
     display: flex;
+}
+
+.header {
+
     background-color: #1f2937;
     color: #f9faf8;
 
    
 }
 .header-container {
-    display: flex;
     flex: 1;
     justify-content: space-between;
     padding: 0 48px;
@@ -27,12 +32,12 @@ body {
     font-weight: 900;
 }
 .header-links {
-    display: flex;
+
     align-items: center;
     gap: 16px;
 }
 .header,  .item1 , .item2 , .item3, .item4 {
-    display: flex;
+
     padding: 24px;
 
 }
@@ -44,7 +49,7 @@ body {
     justify-content: space-between;
 }
 .text-sub {
-    display: flex;
+
     flex-direction: column;
 }
 
@@ -88,13 +93,12 @@ button {
 }
 
 .all-boxes {
-    display: flex;
     gap: 12px;
    
 }
 
 .box-text {
-    display: flex;
+
     align-items: center;
     flex-direction: column;
 }
@@ -129,7 +133,7 @@ a {
 }
 
 .quote {
-    display: flex;
+
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -138,7 +142,7 @@ a {
 
 .citation {
     margin: 0 240px;
-    display: flex;
+
     justify-content: flex-end;
     font-weight: bold;
 }
@@ -152,18 +156,15 @@ a {
     color: #fff;
     padding:  48px;
     border-radius: 10px;
-    display: flex;
     margin: 96px;
     flex: 1;
     justify-content: space-between;
 }
 .text-button {
-    display: flex;
     flex: 1;
     justify-content: space-around;
 }
 .cta-text {
-    display: flex;
     flex-direction: column;
 }
 
@@ -178,7 +179,6 @@ a {
     background-color: #1F2937;
     color: #fff;
     padding: 48px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
